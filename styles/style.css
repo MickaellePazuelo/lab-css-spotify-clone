@@ -75,9 +75,18 @@ h3{
     color: #FFF;
     background-color: #00B172 ;
     position: absolute;
-  height: 80%;
-  width: 50%;
-  left: 30%;
+  height: 100%;
+  width: 100%;
+  left: 10%;
+  margin-bottom: 100px;
+  background: #00D1AE;
+  float: right;
+  height: 390px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  width: 80%;
   margin-bottom: 100px;
 }
 
@@ -86,23 +95,32 @@ h3{
     color:#FFF ;
     display: flex;
     justify-content: right;
-    margin: 23px 5px 23px 5px;
+    margin: 23px 5px;
     
 }
 
 .spotifyscreen{
+    height: 400px;
+    float: right;
     display: flex;
-    justify-content: right;
-    align-items: flex-end;
-    width: 400x;
-	height: 400px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 25px;left: 1200px;
 }
 
-.spotifylogo{
-    text-align: right;
+.spotifylogo {
     display: flex;
-    justify-content:flex-end;
-    align-items: flex-end;
     width: 100x;
 	height: 100px;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 200px;right: 700px;
 }
+
+
