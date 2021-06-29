@@ -6,3 +6,103 @@ Green: #00B172
 White: #FFF
 
 */
+
+.logospotify {
+    width: 100px;
+    height: 40px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    justify-content: flex-end;
+} 
+    
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.question{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color:#00B172;
+}
+
+h3{
+    color: #00B172;
+}
+
+.features{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paragraphs{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100x;
+	height: 100px;
+}
+.greenblock{
+    color: #FFF;
+    background-color: #00B172 ;
+    position: absolute;
+  height: 80%;
+  width: 50%;
+  left: 30%;
+  margin-bottom: 100px;
+}
+
+.kanyewest{
+    text-decoration: underline;
+    color:#FFF ;
+    display: flex;
+    justify-content: right;
+    margin: 23px 5px 23px 5px;
+    
+}
+
+.spotifyscreen{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    width: 400x;
+	height: 400px;
+}
+
+.spotifylogo{
+    text-align: right;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    width: 100x;
+	height: 100px;
+}
