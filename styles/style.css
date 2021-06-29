@@ -6,11 +6,21 @@ Green: #00B172
 White: #FFF
 
 */
+html *
+{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 80px;
+}
+
+
 
 .logospotify {
     width: 100px;
     height: 40px;
-    position: fixed;
+    position: relative;
     top: 10px;
     left: 10px;
     z-index: 1000;
@@ -18,6 +28,11 @@ White: #FFF
 .topnav {
     background-color: white;
     overflow: hidden;
+    padding: 0;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 .topnav a{
@@ -27,7 +42,9 @@ White: #FFF
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    display: flex;
     justify-content: flex-end;
+    align-items: center;
 } 
     
 .main {
@@ -88,11 +105,13 @@ h3{
   padding-bottom: 10px;
   width: 80%;
   margin-bottom: 100px;
+  block-size: 25em;
 }
 
 .kanyewest{
+    font-size: 30px;
     text-decoration: underline;
-    color:#FFF ;
+    color:#FFF;
     display: flex;
     justify-content: right;
     margin: 23px 5px;
